@@ -1,223 +1,485 @@
-        body {
-            margin: 0%;
-            padding: 0%;
-            height: auto;
-            width: auto;
-        }
-        /* header début */
-        
-        .Gmail {
-            text-decoration: none;
-            color: black;
-            margin: 10px;
-        }
-        
-        .Gmail:hover {
-            text-decoration: underline;
-        }
-        
-        .Images {
-            text-decoration: none;
-            color: black;
-            margin: 10px;
-        }
-        
-        .Images:hover {
-            text-decoration: underline;
-        }
-        
-        .Appli {
-            width: 25px;
-            height: 25px;
-            margin: 10px;
-            margin-bottom: -5px;
-        }
-        
-        .Appli:hover {
-            text-decoration: underline;
-        }
-        
-        .Sign_in {
-            text-decoration: none;
-            color: white;
-            margin: 10px;
-            background-color: #70a1ff;
-            padding: 5px;
-            border-radius: 5%;
-        }
-        
-        header {
-            display: flex;
-            justify-content: flex-end;
-        }
-        /* header fin */
-        /* section début */
-        
-        .logo_google {
-            width: 700px;
-            height: 200px;
-        }
-        
-        .cadre {
-            width: 700px;
-            height: 50px;
-            border-radius: 25px 25px;
-            padding-left: 30px;
-            outline: none;
-            text-size-adjust: 100%;
-            background: url(logo_micro.jpg) right no-repeat;
-        }
-        
-        .btn1 {
-            height: 20px;
-            background-color: #ecf0f1;
-            padding: 5px;
-            margin-right: 190px;
-            border-radius: 5px;
-            display: block;
-        }
-        
-        .btn1:hover {
-            border: solid #34495e 1px;
-        }
-        
-        .btn2:hover {
-            border: solid #34495e 1px;
-        }
-        
-        .btn2 {
-            height: 20px;
-            background-color: #ecf0f1;
-            padding: 5px;
-            margin-left: 150px;
-            margin-top: -45px;
-            border-radius: 5px;
-        }
-        
-        .search {
-            text-decoration: none;
-            color: #7f8c8d;
-            margin-right: 30px;
-            font-weight: bold;
-        }
-        
-        .lucky {
-            text-decoration: none;
-            color: #7f8c8d;
-            font-weight: bold;
-        }
-        
-        .lang {
-            margin-left: 8%;
-            text-decoration: none;
-        }
-        
-        #lang {
-            margin-left: 3px;
-            color: cornflowerblue;
-            text-decoration: none;
-        }
-        
-        #lang:hover {
-            text-decoration: underline;
-        }
-        
-        section {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-top: 5%;
-        }
-        /* section fin */
-        /*  footer début */
-        
-        .Niger {
-            border-bottom: 0.5px solid #57606f;
-            padding-bottom: 5px;
-            padding-top: 5px;
-        }
-        
-        footer {
-            background-color: #ced6e0;
-            display: flex;
-            flex-direction: column;
-            position: absolute;
-            bottom: 0px;
-            width: 100%;
-        }
-        
-        .Publicité {
-            text-decoration: none;
-            color: black;
-        }
-        
-        .Publicité:hover {
-            text-decoration: underline;
-        }
-        
-        .Entreprise {
-            text-decoration: none;
-            color: black;
-            margin-left: 20px;
-        }
-        
-        .Entreprise:hover {
-            text-decoration: underline;
-        }
-        
-        .À_propos {
-            text-decoration: none;
-            color: black;
-            margin-left: 20px;
-        }
-        
-        .À_propos:hover {
-            text-decoration: underline;
-        }
-        
-        .Comment {
-            text-decoration: none;
-            color: black;
-            margin-left: 20px;
-        }
-        
-        .Comment:hover {
-            text-decoration: underline;
-        }
-        
-        .Confid {
-            text-decoration: none;
-            color: black;
-            margin-right: 20px;
-        }
-        
-        .Confid:hover {
-            text-decoration: underline;
-        }
-        
-        .Conditions {
-            text-decoration: none;
-            color: black;
-            margin-right: 20px;
-        }
-        
-        .Conditions:hover {
-            text-decoration: underline;
-        }
-        
-        .Paramètres {
-            text-decoration: none;
-            color: black;
-        }
-        
-        .Paramètres:hover {
-            text-decoration: underline;
-        }
-        
-        .down {
-            display: flex;
-            justify-content: space-between;
-            height: 15px;
-            margin-bottom: 10px;
-        }
-        /* footer fin */
+    body {
+    margin: 0%;
+    padding: 0%;
+    height: auto;
+    width: auto;
+}
+
+
+/* header début */
+
+.Gmail {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+.Gmail:hover {
+    text-decoration: underline;
+}
+
+.Images {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+.Images:hover {
+    text-decoration: underline;
+}
+
+.Appli {
+    width: 25px;
+    height: 25px;
+    margin: 10px;
+    margin-bottom: -5px;
+}
+
+.Appli:hover {
+    text-decoration: underline;
+}
+
+.Sign_in {
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    background-color: #70a1ff;
+    padding: 5px;
+    border-radius: 5%;
+}
+
+.Sign_in:active {
+    background-color: rgb(43, 71, 122);
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+/* header fin */
+
+
+/* section début */
+
+.logo_google {
+    width: 700px;
+    height: 200px;
+}
+
+.cadre {
+    width: 700px;
+    height: 50px;
+    border-radius: 25px 25px;
+    padding-left: 30px;
+    outline: none;
+    text-size-adjust: 100%;
+    background: url(logo_micro.jpg) right no-repeat;
+}
+
+.btn1 {
+    height: 20px;
+    background-color: #ecf0f1;
+    padding: 5px;
+    margin-right: 190px;
+    border-radius: 5px;
+    display: block;
+}
+
+.btn1:hover {
+    border: solid #34495e 1px;
+}
+
+.btn1:active {
+    background-color: #57606f;
+}
+
+.btn2:hover {
+    border: solid #34495e 1px;
+}
+
+.btn2:active {
+    background-color: #57606f;
+}
+
+.btn2 {
+    height: 20px;
+    background-color: #ecf0f1;
+    padding: 5px;
+    margin-left: 150px;
+    margin-top: -45px;
+    border-radius: 5px;
+}
+
+.search {
+    text-decoration: none;
+    color: #7f8c8d;
+    margin-right: 30px;
+    font-weight: bold;
+}
+
+.lucky {
+    text-decoration: none;
+    color: #7f8c8d;
+    font-weight: bold;
+}
+
+.lang {
+    margin-left: 8%;
+    text-decoration: none;
+}
+
+#lang {
+    margin-left: 3px;
+    color: cornflowerblue;
+    text-decoration: none;
+}
+
+#lang:hover {
+    text-decoration: underline;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5%;
+}
+
+
+/* section fin */
+
+
+/*  footer début */
+
+.Niger {
+    border-bottom: 0.5px solid #57606f;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+footer {
+    background-color: #ced6e0;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+}
+
+.Publicité {
+    text-decoration: none;
+    color: black;
+}
+
+.Publicité:hover {
+    text-decoration: underline;
+}
+
+.Entreprise {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+
+.Entreprise:hover {
+    text-decoration: underline;
+}
+
+.À_propos {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+
+.À_propos:hover {
+    text-decoration: underline;
+}
+
+.Comment {
+    text-decoration: none;
+    color: black;
+    margin-left: 20px;
+}
+
+.Comment:hover {
+    text-decoration: underline;
+}
+
+.Confid {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+
+.Confid:hover {
+    text-decoration: underline;
+}
+
+.Conditions {
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+}
+
+.Conditions:hover {
+    text-decoration: underline;
+}
+
+.Paramètres {
+    text-decoration: none;
+    color: black;
+}
+
+.Paramètres:hover {
+    text-decoration: underline;
+}
+
+.down {
+    display: flex;
+    justify-content: space-between;
+    height: 15px;
+    margin-bottom: 10px;
+}
+
+
+/* footer fin */
+
+@media screen and (max-width:1000px) {
+    footer {
+        background-color: #ced6e0;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        bottom: 0px;
+        width: 100%;
+    }
+    .Publicité {
+        text-decoration: none;
+        color: black;
+        font-size: smaller;
+    }
+    .Publicité:hover {
+        text-decoration: underline;
+    }
+    .Entreprise {
+        text-decoration: none;
+        color: black;
+        margin-left: 20px;
+        font-size: smaller;
+    }
+    .Entreprise:hover {
+        text-decoration: underline;
+    }
+    .À_propos {
+        text-decoration: none;
+        color: black;
+        margin-left: 20px;
+        font-size: smaller;
+    }
+    .À_propos:hover {
+        text-decoration: underline;
+    }
+    .Comment {
+        text-decoration: none;
+        color: black;
+        margin-left: 20px;
+        font-size: smaller;
+    }
+    .Comment:hover {
+        text-decoration: underline;
+    }
+    .Confid {
+        text-decoration: none;
+        color: black;
+        margin-right: 20px;
+        font-size: smaller;
+    }
+    .Confid:hover {
+        text-decoration: underline;
+    }
+    .Conditions {
+        text-decoration: none;
+        color: black;
+        margin-right: 20px;
+        font-size: smaller;
+    }
+    .Conditions:hover {
+        text-decoration: underline;
+    }
+    .Paramètres {
+        text-decoration: none;
+        color: black;
+        font-size: smaller;
+    }
+    .Paramètres:hover {
+        text-decoration: underline;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .Publicité {
+        text-decoration: none;
+        color: black;
+        font-size: xx-small;
+    }
+    .Publicité:hover {
+        text-decoration: underline;
+    }
+    .Entreprise {
+        text-decoration: none;
+        color: black;
+        margin-left: 20px;
+        font-size: xx-small;
+    }
+    .Entreprise:hover {
+        text-decoration: underline;
+    }
+    .À_propos {
+        text-decoration: none;
+        color: black;
+        margin-left: 20px;
+        font-size: xx-small;
+    }
+    .À_propos:hover {
+        text-decoration: underline;
+    }
+    .Comment {
+        text-decoration: none;
+        color: black;
+        margin-left: 20px;
+        font-size: xx-small;
+    }
+    .Comment:hover {
+        text-decoration: underline;
+    }
+    .Confid {
+        text-decoration: none;
+        color: black;
+        margin-right: 20px;
+        font-size: xx-small;
+    }
+    .Confid:hover {
+        text-decoration: underline;
+    }
+    .Conditions {
+        text-decoration: none;
+        color: black;
+        margin-right: 20px;
+        font-size: xx-small;
+    }
+    .Conditions:hover {
+        text-decoration: underline;
+    }
+    .Paramètres {
+        text-decoration: none;
+        color: black;
+        font-size: xx-small;
+    }
+    .Paramètres:hover {
+        text-decoration: underline;
+    }
+    .down {
+        display: flex;
+        justify-content: space-between;
+        height: 15px;
+        margin-bottom: 10px;
+    }
+    footer {
+        background-color: #ced6e0;
+        display: flex;
+        flex-direction: column;
+        position: fixed;
+        bottom: 0px;
+        width: 100%;
+    }
+    .cadre {
+        width: 300px;
+        height: 25px;
+        border-radius: 25px 25px;
+        padding-left: 30px;
+        outline: none;
+        text-size-adjust: 100%;
+        background: url(logo_micro.jpg) right no-repeat
+    }
+    .btn1 {
+        height: 10px;
+        width: 100px;
+        background-color: #ecf0f1;
+        padding: 5px;
+        margin-top: -20px;
+        margin-right: 150px;
+        border-radius: 5px;
+        display: block;
+    }
+    .search {
+        font-size: xx-small;
+        padding-left: 10px;
+    }
+    .btn2 {
+        height: 10px;
+        width: 100px;
+        background-color: #ecf0f1;
+        padding: 5px;
+        margin-left: 100px;
+        margin-top: -35px;
+        border-radius: 5px;
+    }
+    .lucky {
+        text-decoration: none;
+        color: #7f8c8d;
+        font-size: xx-small;
+    }
+    .logo_google {
+        width: 200px;
+        height: 100px;
+    }
+    .lang {
+        margin-top: -30px;
+        font-size: smaller;
+    }
+    .Gmail {
+        text-decoration: none;
+        color: black;
+        margin: 10px;
+        font-size: small;
+    }
+    .Gmail:hover {
+        text-decoration: underline;
+    }
+    .Images {
+        text-decoration: none;
+        color: black;
+        margin: 10px;
+        font-size: small;
+    }
+    .Images:hover {
+        text-decoration: underline;
+    }
+    .Appli {
+        width: 25px;
+        height: 25px;
+        margin: 10px;
+        margin-bottom: -5px;
+    }
+    .Appli:hover {
+        text-decoration: underline;
+    }
+    .Sign_in {
+        text-decoration: none;
+        color: white;
+        margin: 10px;
+        background-color: #70a1ff;
+        padding: 5px;
+        border-radius: 5%;
+        font-size: xx-small;
+        width: 30px;
+    }
+    .Sign_in:active {
+        background-color: rgb(43, 71, 122);
+    }
+    header {
+        display: flex;
+        justify-content: flex-end;
+    }
